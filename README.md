@@ -9,11 +9,12 @@ This C program compiled in CCS works to convert the sampled data into 8-bit ASCI
   output: 8-bit ASCII sample
 ```
 
-## **smartHome.c:** 
+## **smartHomeGUI.cs:** 
 This C# program compiled in Visual Studios works to convert the 8-bit ASCII sample date into interger form. The program creates a GUI (graphical user interface). 
   ```
   input: 8-bit ASCII sample
   output: Integer 
   ```
+  
   
   A deeper understanding of microcontrollers, specifically the MSP430, and their behavior was gained through the implementation of sensors, a C# GUI, and ThingSpeak. The reading and conversion of the light, temperature, and motion analog sensor data goes through the serial port to the correct ThingSpeak channel and then is finally displayed visually on a graph.
